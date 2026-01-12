@@ -1,0 +1,12 @@
+# Webcam Tracker Dependencies
+
+# Core dependencies
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0  # Required for legacy trackers (MOSSE, MedianFlow)
+numpy>=1.24.0
+
+# Serial communication (for Arduino)
+pyserial>=3.5
+
+# Optional: For advanced features
+# imutils>=0.5.4  # Image processing utilities
