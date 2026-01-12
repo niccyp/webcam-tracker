@@ -84,10 +84,16 @@ A Python-based motion tracking system using OpenCV that can control pan/tilt ser
 
 ### 1. Install Python Dependencies
 
+It’s recommended to use a local virtual environment (`.venv`). It is intentionally not committed to git/GitHub.
+
 ```bash
 cd webcam-tracker
+python -m venv .venv
+./.venv/Scripts/Activate.ps1
 pip install -r requirements.txt
 ```
+
+If PowerShell blocks activation, run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once, or use `./.venv/Scripts/activate` from CMD.
 
 **Dependencies:**
 - opencv-python
